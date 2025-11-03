@@ -13,9 +13,12 @@ const Navbar = () => {
   const navigate=useNavigate()
 
   return (
-    <div className='fixed top-0 left-0 z-50 w-full flex items-center justify-between px-6 md:px-16 lg:px-20 py-1'>
+    <div className='fixed top-0 left-0 z-50 w-full flex items-center justify-between px-6 md:px-16 lg:px-20 py-5'>
       <Link to='/' className='max-md:flex-1'>
-        <img src={assets.logo} alt='' className='w-28 h-auto' />
+        <h1 className='text-4xl text-blue-400' 
+        onClick={()=>{navigate('/'),scrollTo(0,0)}}>
+          Cine<span className='text-white'>Spot</span>
+        </h1>
       </Link>
       <div className={`flex max-md:absolute max-md:top-0 max-md:left-0 max-md:font-medium max-md:text-lg z-50 flex-col md:flex-row items-center
       max-md:justify-center gap-8  md:px-8 md:rounded-full  py-3 max-md:h-screen  backdrop-blur bg-black/70 md:bg-white/10 md:border
