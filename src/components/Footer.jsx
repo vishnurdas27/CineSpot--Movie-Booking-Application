@@ -11,13 +11,13 @@ const Footer= () => {
                         We make discovering, selecting, and booking movie tickets effortless — offering real-time showtimes, secure payments, and a smooth user experience.
                     </p>
                     <div className="flex items-center gap-2 mt-4">
-                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/refs/heads/main/assets/appDownload/googlePlayBtnBlack.svg" alt="google play" className="h-10 w-auto border border-white rounded" />
-                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/refs/heads/main/assets/appDownload/appleStoreBtnBlack.svg" alt="app store" className="h-10 w-auto border border-white rounded" />
+                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/refs/heads/main/assets/appDownload/googlePlayBtnBlack.svg" alt="google play" className="h-10 w-auto border border-white rounded cursor-pointer" />
+                        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/refs/heads/main/assets/appDownload/appleStoreBtnBlack.svg" alt="app store" className="h-10 w-auto border border-white rounded cursor-pointer" />
                     </div>
                 </div>
                 <div className="flex-1 flex items-start md:justify-end gap-20 md:gap-40">
                     <div>
-                        <h2 className="font-semibold mb-5">Company</h2>
+                        <h2 className="font-semibold mb-5">CineSpot</h2>
                         <ul className="text-sm space-y-2">
                             <li><a href="/">Home</a></li>
                             <li><a href="/about">About us</a></li>
@@ -35,7 +35,7 @@ const Footer= () => {
                 </div>
             </div>
             <p className="pt-4 text-center text-sm pb-5">
-                Copyright {new Date().getFullYear()} © <a href="https://prebuiltui.com">CineSpot</a>. All Right Reserved.
+                Copyright {new Date().getFullYear()} © <a href="/">CineSpot</a>. All Right Reserved.
             </p>
         </footer>
     )
