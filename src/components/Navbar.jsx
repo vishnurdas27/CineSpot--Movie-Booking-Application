@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link to='/movies' onClick={()=>{scrollTo(0,0); setIsOpen(false)}}>Movies</Link>
         <Link to='/' onClick={()=>{scrollTo(0,0); setIsOpen(false)}}>Theaters</Link>
         <Link to='/' onClick={()=>{scrollTo(0,0); setIsOpen(false)}}>Releases</Link>
-        <Link to='/favorites' onClick={()=>{scrollTo(0,0); setIsOpen(false)}}>Favorites</Link>
+        <Link to='/favorite' onClick={()=>{scrollTo(0,0); setIsOpen(false)}}>Favorites</Link>
       </div>
       <div className='flex items-center gap-8'>
         <SearchIcon className='max-md:hidden w-6 h-6 cursor-pointer'/>
